@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+*/.DS_Store
+/.DS_Store
+
 # Distribution / packaging
 .Python
 build/
@@ -65,6 +68,12 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
+# idea
+.idea/
+
+# Env folder
+assign:env/
+
 # Scrapy stuff:
 .scrapy
 
@@ -109,6 +118,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Dataset
+.csv
+data/*.csv
 
 # Spyder project settings
 .spyderproject
